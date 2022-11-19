@@ -1,0 +1,36 @@
+:root {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg {
+  /*display: none;*/
+  fill: black;
+  stroke: black;
+  width: 300px;
+  height: auto;
+}
+
+.gopher_eye {
+  /*clip-path: polygon(50% 0%, 100% 100%, 0 100%)*/
+}
