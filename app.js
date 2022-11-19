@@ -39,7 +39,7 @@ class GopherEye {
   }
 
   transformEyes = (event) => {
-    this.normalizedX = ((event.clientX - this.xCenter) / (this.xCenter - this.xMax)) * -6;
+    this.normalizedX = ((event.clientX - this.xCenter) / (this.xCenter - this.xMax)) * -7;
     this.normalizedY = ((event.clientY - this.yCenter) / (this.yCenter - this.yMax)) * -6;
     // console.log(this.normalizedX, this.normalizedY)
     const translate = `translate(${this.normalizedX}%, ${this.normalizedY}%)`
